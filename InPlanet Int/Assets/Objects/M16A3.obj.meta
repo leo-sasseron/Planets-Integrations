@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 1ead8c89af148734b9b9bfe4d1f45dfd
-timeCreated: 1521548172
-licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     100002: Mesh10_Model
@@ -72,10 +70,78 @@ ModelImporter:
     4300020: Mesh7_Model
     4300022: Mesh8_Model
     4300024: Mesh9_Model
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh10_ModelMat
+    second: {fileID: 2100000, guid: 074ca4736e194104e926333370abcabb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh11_ModelMat
+    second: {fileID: 2100000, guid: a4665055b2b1d0a4a942a2315507b8a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh12_ModelMat
+    second: {fileID: 2100000, guid: 8d4dfc48de2344e4490ee7a18406c538, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh13_ModelMat
+    second: {fileID: 2100000, guid: 3cd8e9b53cef6c84a83b0747be29c929, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh1_bala1_ModelMat
+    second: {fileID: 2100000, guid: 778c635060e8cea439986912dd942a72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh2_bala2_ModelMat
+    second: {fileID: 2100000, guid: 850d892646cfdd9409411375b50a682d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh3_bala3_ModelMat
+    second: {fileID: 2100000, guid: 4fcf853d003cfe242b0ee75c30acbbd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh4_bala4_ModelMat
+    second: {fileID: 2100000, guid: 15e45d55ef90b8b46a7a71f2216b83a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh5_ModelMat
+    second: {fileID: 2100000, guid: 0d2555ad78231654c9e447f4961bb6e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh6_ModelMat
+    second: {fileID: 2100000, guid: 654909e8c94d4a4488da1812a4f077d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh7_ModelMat
+    second: {fileID: 2100000, guid: 1f99d860432bc29408f44d57a8a06152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh8_ModelMat
+    second: {fileID: 2100000, guid: 572d8ec3da11df74d8b453ae1e760fcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh9_ModelMat
+    second: {fileID: 2100000, guid: 0728f34ea65d197428b52b617d7dbe7e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -88,6 +154,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -102,6 +170,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -112,16 +181,23 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -136,7 +212,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
